@@ -1,0 +1,50 @@
+#container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: rgb(39, 37, 41);
+}
+
+button {
+    color: white;
+    background-color: hsl(155, 100%, 40%);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-width: 0;
+}
+
+button:hover {
+    background-color: hsl(155, 100%, 50%);
+}
+
+button:active {
+    background-color: hsl(155, 100%, 80%);
+}
+
+input {
+    color: white;
+    background-color: rgb(2, 103, 197);
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#diceResult {
+    margin: 15px;
+    
+}
+#diceImages img{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
